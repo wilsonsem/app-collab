@@ -5,6 +5,6 @@ from wiselane import views
 
 #urls
 urlpatterns = [
-		path('', views.index, name="home"),
+	path('', views.index, name="home"),
 		]
 

@@ -3,4 +3,4 @@ from django.views.generic import View
 
 # Create your views here.
 def index(request):
-	return render (request, 'wiselane/index.html', {})
+	return render (request, 'index.html', {})
